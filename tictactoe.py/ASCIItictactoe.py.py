@@ -9,7 +9,6 @@ def print_board(board):
 
 
 def check_win(board, player):
-    # All possible winning combos 
     win_conditions = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8], 
         [0, 3, 6], [1, 4, 7], [2, 5, 8],  

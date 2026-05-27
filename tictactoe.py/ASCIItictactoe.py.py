@@ -48,7 +48,7 @@ def main():
             
         index = choice - 1
         if board[index] in ['X', 'O']:
-            print("❌ That spot is already taken! Try again.")
+            print("❌ Invalid spot, try again.")
             continue
             
         board[index] = current_player
